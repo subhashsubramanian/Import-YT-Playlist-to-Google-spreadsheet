@@ -23,13 +23,15 @@ Name the service account and grant it a Project Role of "Editor" and key type as
 
 Download the JSON file to your main.py code directory and rename it to client.secret.json
 
-Create a gooogle spreadsheet where you want the playlist and share with the service account email id created above with "Edit" rights
+Create a gooogle spreadsheet where you want the playlist 
+
+Share it with the service account with "Edit" rights (see json file for client_email) 
 
 Enable Youtube Data v3 API
 
 You will get the OAuth2 token.
 
-Copy the API key into a notepad file named "client.secret.txt"
+Copy just the API key into a notepad file named "client.secret.txt"
 
 Both the json and txt files must be with main.py
 
